@@ -18,7 +18,8 @@ import com.zhongsou.spider.common.util.NumberUtil;
 /**
  * Describe class <code>DeDupMapper</code> here.
  *
- * @author <a href="mailto:dingje@zhongsou.com">Ding Jingen</a>
+ * @author Ding Jingen
+>/Ding Jingen/g
  * @version 1.0
  */
 public class DeDupMapper extends TableMapper<KeyValuePair, DupPair> {

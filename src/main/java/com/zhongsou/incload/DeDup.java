@@ -37,7 +37,8 @@ import com.zhongsou.spider.hbase.mapreduce.BinaryOutputFormat;
  * Describe class <code>DeDup</code> here. the dirve class for dedup MapReduce
  * job
  * 
- * @author <a href="mailto:dingje@zhongsou.com">Ding Jingen</a>
+ * @author Ding Jingen
+>/Ding Jingen/g
  * @version 1.0
  */
 public class DeDup extends Configured implements Tool, MapreduceV2Job {

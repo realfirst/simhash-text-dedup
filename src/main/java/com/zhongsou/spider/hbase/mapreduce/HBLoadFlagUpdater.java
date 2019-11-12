@@ -37,7 +37,6 @@ import com.zhongsou.spider.hadoop.jobcontrol.MapreduceV2Job;
 /**
  * Describe class <code>HBLoadFlagUpdater</code> here.
  *
- * @author <a href="mailto:dingje@zhongsou.com">Ding Jingen</a>
  * @version 1.0
  */
 public class HBLoadFlagUpdater extends Configured implements MapreduceV2Job {

@@ -21,7 +21,8 @@ import org.apache.hadoop.util.ReflectionUtils;
  * Describe class <code>MemTable</code> here. the class contians buildTable and
  * buildExtTable method
  * 
- * @author <a href="mailto:dingje@zhongsou.com">Ding Jingen</a>
+ * @author Ding Jingen
+>/Ding Jingen/g
  * @version 1.0
  */
 public class MemTable {

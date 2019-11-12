@@ -28,7 +28,8 @@ import com.zhongsou.spider.hadoop.jobcontrol.MapreduceV2Job;
  * Describe class <code>SelectLogic</code> here. the dirver class for
  * selectlogic mapreduce
  *
- * @author <a href="mailto:dingje@zhongsou.com">Ding Jingen</a>
+ * @author Ding Jingen
+>/Ding Jingen/g
  * @version 1.0
  */
 public class SelectLogic extends Configured implements Tool, MapreduceV2Job {

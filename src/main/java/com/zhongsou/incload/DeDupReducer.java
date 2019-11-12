@@ -12,7 +12,8 @@ import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
  *
  * reduce class for deduplicate
  *
- * @author <a href="mailto:dingje@zhongsou.com">Ding Jingen</a>
+ * @author Ding Jingen
+>/Ding Jingen/g
  * @version 1.0
  */
 public class DeDupReducer extends

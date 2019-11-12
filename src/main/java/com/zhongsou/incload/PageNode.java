@@ -13,7 +13,8 @@ import com.zhongsou.spider.common.util.NumberUtil;
 /**
  * Describe class <code>PageNode</code> here.
  * 
- * @author <a href="mailto:dingje@zhongsou.com">Ding Jingen</a>
+ * @author Ding Jingen
+>/Ding Jingen/g
  * @version 1.0
  */
 public class PageNode implements WritableComparable<PageNode> {

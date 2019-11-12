@@ -144,7 +144,7 @@
                           "./lib/zookeeper-3.4.3.jar"
                           ))
  ;; You can set different user name and e-mail address for each project
- '(user-mail-address "dingje@zhongsou.com")
+ '(user-mail-address "dingje")
  )
 
 (setq jdibug-connect-host "localhost"

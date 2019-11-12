@@ -15,7 +15,8 @@ import org.mortbay.log.Log;
 /**
  * Describe class <code>SelectLogicReducer</code> here.
  *
- * @author <a href="mailto:dingje@zhongsou.com">Ding Jingen</a>
+ * @author Ding Jingen
+>/Ding Jingen/g
  * @version 1.0
  */
 public class SelectLogicReducer
