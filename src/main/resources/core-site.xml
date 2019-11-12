@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+<configuration>
+  <property>
+    <name>fs.default.name</name>
+    <value>hdfs://hadoop-master-83:9900</value>
+    <description>The name of the default file system. Either the literal string "local" or a host:port for DFS.</description>
+  </property>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/var/hadoop/tmp</value>
+    <description>A base for other temporary directories.</description>
+  </property>
+
+  <property>
+        <name>io.compression.codecs</name>
+        <value>org.apache.hadoop.io.compress.SnappyCodec</value>
+  </property>
+
+  <property>
+        <name>fs.checkpoint.period</name>
+        <value>3600</value>
+        <description>The number of seconds between two periodic checkpoints. </description>
+  </property>
+  <property>
+        <name>fs.checkpoint.size</name>
+        <value>67108864</value>
+        <description>The size of the current edit log (in bytes) that triggers a periodic checkpoint even if the fs.checkpoint.period hasn't expired. </description>
+  </property>
+  <property>
+        <name>fs.checkpoint.dir</name>
+        <value>/var/hadoop/secondaryname</value>
+        <description>Determines where on the local filesystem the DFS secondary name node should store the temporary images to merge. If this is a comma-delimited list of directories then the image is replicated in all of the directories for redundancy. </description>
+   </property>
+</configuration>
+
+

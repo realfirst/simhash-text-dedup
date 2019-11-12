@@ -1,0 +1,4 @@
+how to run
+
+hadoop jar yourjar.jar com.zhongsou.incload.Driver <hbase-table(webDB)> <new-urlid-finger-dir>  <dedup-out> <delete-list> <time-stamp-of-new-flag>
+

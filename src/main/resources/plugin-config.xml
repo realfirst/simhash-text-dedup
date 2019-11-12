@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+	<plugin id="com.zhongsou.spider.common.url.URLNormalizer">
+		<implementation>
+			<class>com.zhongsou.spider.common.url.RegexURLNormalizer</class>
+			<order>3</order>
+			<enable>true</enable>
+		</implementation>
+		<implementation>
+			<class>com.zhongsou.spider.common.url.PassURLNormalizer</class>
+			<order>2</order>
+			<enable>true</enable>
+		</implementation>
+		<implementation>
+			<class>com.zhongsou.spider.common.url.BasicURLNormalizer</class>
+			<order>1</order>
+			<enable>true</enable>
+
+		</implementation>
+	</plugin>
+	<plugin id="com.zhongsou.spider.common.url.URLFilter">
+		<implementation>
+			<class>com.zhongsou.spider.common.url.RegexURLFilter</class>
+			<order>1</order>
+			<enable>true</enable>
+		</implementation>
+		<implementation>
+			<class>com.zhongsou.spider.common.url.DomainURLFilter</class>
+			<order>3</order>
+			<enable>true</enable>
+			<parameter name="file" value="domain-urlfilter.txt" />
+		</implementation>
+		<implementation>
+			<class>com.zhongsou.spider.common.url.DomainBlacklistURLFilter</class>
+			<order>2</order>
+			<enable>true</enable>
+			<parameter name="file" value="domainblacklist-urlfilter.txt" />
+		</implementation>
+		<implementation>
+			<class>com.zhongsou.spider.common.url.RobotsFilter</class>
+			<order>4</order>
+			<enable>true</enable>
+		</implementation>
+	</plugin>
+</plugins>

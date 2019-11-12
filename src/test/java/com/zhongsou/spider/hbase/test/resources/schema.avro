@@ -1,0 +1,102 @@
+{
+  "type" : "record",
+  "name" : "parser_data",
+  "fields" : [ {
+    "name" : "down_status",
+    "type" : "bytes"
+  }, {
+    "name" : "down_meta",
+    "type" : "bytes"
+  }, {
+    "name" : "down_url",
+    "type" : "bytes"
+  }, {
+    "name" : "down_contenttype",
+    "type" : "bytes"
+  }, {
+    "name" : "down_lang",
+    "type" : "bytes"
+  }, {
+    "name" : "down_encode",
+    "type" : "bytes"
+  }, {
+    "name" : "simhash",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_filetype",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_staus",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_pagetype",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_category",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_sitetitle",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_realtitle",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_keyword",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_description",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_time",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_lang",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_content",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_host",
+    "type" : "bytes"
+  }, {
+    "name" : "parser_link",
+    "type" : {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "link_info",
+        "fields" : [ {
+          "name" : "url",
+          "type" : "bytes"
+        }, {
+          "name" : "source",
+          "type" : "bytes"
+        }, {
+          "name" : "text",
+          "type" : "bytes"
+        }, {
+          "name" : "host",
+          "type" : "bytes"
+        }, {
+          "name" : "inout",
+          "type" : "bytes"
+        } ]
+      }
+    }
+  }, {
+    "name" : "parser_other",
+    "type" : "bytes"
+  }, {
+    "name" : "seg_url",
+    "type" : "bytes"
+  }, {
+    "name" : "seg_sitetitle",
+    "type" : "bytes"
+  }, {
+    "name" : "seg_realtitle",
+    "type" : "bytes"
+  }, {
+    "name" : "seg_content",
+    "type" : "bytes"
+  } ]
+}
